@@ -44,6 +44,8 @@ Microsoft has a [list of guides](https://aka.ms/e8guides) - focusing on each of 
 
 ##### Notes
 
+
+
 ##### Links
 
 - [Ad Block Tester](https://canyoublockit.com/) - This is reccomended by ACSC to test your ability to block ads. With the Manifest v3 changes, a combination of Browser Extensions and DNS blocking is required.
@@ -81,15 +83,51 @@ Microsoft has a [list of guides](https://aka.ms/e8guides) - focusing on each of 
 
 #### Multi-factor authentication
 
+##### Notes
+
+##### Links
+
 #### Patch Applications
+
+##### Notes
+
+##### Links
 
 #### Patch Operating Systems
 
+##### Notes
+
+##### Links
+
 #### Restrict administrative privileges
+
+##### Notes
+
+##### Links
+
+- [Sean Metcalf's blog](https://adsecurity.org/?page_id=4031) - is arguably the best source of information on securing AD 
+
+- [Sean Metcalf talk](https://www.youtube.com/watch?v=w8JY1McMvHI) and [Slides](https://www.slideshare.net/slideshow/gone-in-60-seconds-how-azure-ad-entra-id-tenants-are-compromise/272578865) on how Entra Tenants are compromised 
+
+- [Technet article on how to secure AD](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
+
+- [Technet article on securing your Identity Infrastructure](https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity) 
+
+- [Configure a Jumphost with ZTNA](https://emsroute.com/2024/12/31/ztna-jumphost/) - Good blog post on using PIM/Global Secure Access to secure a Jumphost
+
+- [AD Tiering Powershell Scripts/BSides talk](https://github.com/Spicy-Toaster/ActiveDirectory-Tiering) - PS Scripts and PDF on how to tier AD 
 
 #### Regular backups
 
+##### Notes
+
+##### Links
+
 #### Restrict Microsoft Office macros
+
+##### Notes
+
+##### Links
 
 - [ACSC's guide to disabling Macros](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros) - Very good guide - Shows 6 different ways to set macro's, Along with the benefits/fritction. All these options can be set in Intune/GPO
 - [Powershell Testing Scripts](https://github.com/JackStuart/Scripts/tree/main/Macros) - Scripts that you can run to confirm what settings are enabled are disabled, Easily customisable to whatever settings you want to test
