@@ -948,8 +948,11 @@
 <a class="glightbox" href="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS0zNzU1NzAyLTQ0NjUxNGkzM0RCODE5QjU4RjA2MEJB" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS0zNzU1NzAyLTQ0NjUxNGkzM0RCODE5QjU4RjA2MEJB" /></a></p>
 </li>
 <li>
-<p><a href="https://aka.ms/e8guides">Microsoft's guidance on Essential 8 implementation</a></p>
+<p><a href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight">Essential 8 - ASD Site</a></p>
 </li>
+<li><a href="https://e8.jstuart.io">Essential 8 - On a page</a></li>
+<li><a href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-maturity-model-ism-mapping">Essential 8 - Mapping to ISM</a></li>
+<li><a href="https://aka.ms/e8guides">Microsoft's guidance on Essential 8 implementation</a></li>
 <li><a href="https://m365maps.com/australia.htm">Collection of Australian M365 content on Essential 8</a></li>
 <li><a href="https://aka.ms/MCRA">Microsoft Cybersecurity Reference Architecture</a></li>
 <li><a href="https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap">Australian IRAP</a></li>
@@ -957,7 +960,7 @@
 <a class="glightbox" href="../images/Essential-8.png" data-type="image" data-width="auto" data-height="auto" data-desc-position="bottom"><img alt="" src="../images/Essential-8.png" /></a></li>
 </ul>
 <p><strong>Microsoft E8 Guides</strong>
-Microsoft has a list of guides below focusing on each of the 8 Mitigation Strategies <a href="https://aka.ms/e8guides">Essential 8 guides</a></p>
+Microsoft has a <a href="https://aka.ms/e8guides">list of guides</a> - focusing on each of the 8 Mitigation Strategies</p>
 <ul>
 <li>
 <p><a href="https://learn.microsoft.com/en-us/compliance/anz/e8-app-harden">Microsoft General - Essential Eight - Application Hardening</a></p>
@@ -998,12 +1001,28 @@ Microsoft has a list of guides below focusing on each of the 8 Mitigation Strate
 </ul>
 <h3 id="helpful-infolinks-for-each-mitigation-strategy"><strong>Helpful Info/Links for each mitigation strategy</strong></h3>
 <h4 id="application-hardening">Application Hardening</h4>
+<ul>
+<li><a href="https://canyoublockit.com/">Ad Block Tester</a> - This is reccomended by ACSC to test your ability to block ads. With the Manifest v3 changes, a combination of Browser Extensions and DNS blocking is required.<ul>
+<li><a href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en">uBlock Lite</a></li>
+<li><a href="https://chromewebstore.google.com/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en">AdBlock Plus</a></li>
+<li><a href="https://nextdns.io/">NextDNS</a></li>
+<li><a href="https://umbrella.cisco.com/">Cisco Umbrella</a></li>
+</ul>
+</li>
+</ul>
 <h4 id="application-control">Application Control</h4>
 <ul>
-<li>Applocker is required for E8 to control the execution of scripts in user profiles</li>
-<li>App Control for Business/Applocker only reports failure events to Advanced Hunting, Successful events are not logged. This can make it hard to find if a policy is working or not as you are looking for something that isn't there</li>
+<li>
+<p>Applocker is required for E8 to control the execution of scripts in user profiles</p>
+</li>
+<li>
+<p>App Control for Business/Applocker only reports failure events to Advanced Hunting, Successful events are not logged. This can make it hard to find if a policy is working or not as you are looking for something that isn't there</p>
+</li>
 <li>
 <p>App Control for Business's Intelligent Security Graph is incompatible with Essential 8</p>
+</li>
+<li>
+<p>Microsoft isn't the only company that does App Control, If App Control for Business + AppLocker is to difficult to manage (It is a complicated/frustrating process, especially to start, even more so if you don't have your apps package). <a href="https://www.airlockdigital.com/">Airlock</a> and <a href="https://www.threatlocker.com/">ThreatLocker</a> are great alternatives  </p>
 </li>
 <li>
 <p><a href="https://www.ccmtune.fr/2022/11/how-to-implement-applocker-with.html">Deploy AppLocker via Intune</a> - Good guide on how to deploy Applocker policies via Intune</p>
@@ -1012,7 +1031,7 @@ Microsoft has a list of guides below focusing on each of the 8 Mitigation Strate
 <p>App Control for Business - <a href="https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/appcontrol-and-applocker-overview">1</a> <a href="https://patchmypc.com/wdac-intune">2</a> - Good doco on how App Control for Business works as well as deploying via Intune</p>
 </li>
 <li>
-<p><a href="https://webapp-wdac-wizard.azurewebsites.net/"><del>WDAC</del> App Control for Business Wizard</a> <a href="https://github.com/MicrosoftDocs/WDAC-Toolkit">Github</a></p>
+<p><a href="https://webapp-wdac-wizard.azurewebsites.net/"><del>WDAC</del> App Control for Business Wizard</a> - <a href="https://github.com/MicrosoftDocs/WDAC-Toolkit">Github</a></p>
 </li>
 <li>
 <p><a href="https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/operations/querying-application-control-events-centrally-using-advanced-hunting">Querying App Control events centrally using Advanced hunting</a> - Shows what the Action Types mean</p>
@@ -1021,7 +1040,9 @@ Microsoft has a list of guides below focusing on each of the 8 Mitigation Strate
 <li>AppLocker Events = <strong>AppControl</strong> XYZ</li>
 </ul>
 </li>
-<li><a href="https://github.com/MicrosoftDocs/WDAC-Toolkit/blob/main/WDAC-Policy-Wizard/docs/using/advanced-hunting.md">KQL for App Control Wizard</a></li>
+<li>
+<p><a href="https://github.com/MicrosoftDocs/WDAC-Toolkit/blob/main/WDAC-Policy-Wizard/docs/using/advanced-hunting.md">KQL for App Control Wizard</a> - This Advanced Hunting query will get you the information you need for the App Control Wizard</p>
+</li>
 </ul>
 <h4 id="multi-factor-authentication">Multi-factor authentication</h4>
 <h4 id="patch-applications">Patch Applications</h4>
@@ -1029,6 +1050,10 @@ Microsoft has a list of guides below focusing on each of the 8 Mitigation Strate
 <h4 id="restrict-administrative-privileges">Restrict administrative privileges</h4>
 <h4 id="regular-backups">Regular backups</h4>
 <h4 id="restrict-microsoft-office-macros">Restrict Microsoft Office macros</h4>
+<ul>
+<li><a href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros">ACSC's guide to disabling Macros</a> - Very good guide - Shows 6 different ways to set macro's, Along with the benefits/fritction. All these options can be set in Intune/GPO</li>
+<li><a href="https://github.com/JackStuart/Scripts/tree/main/Macros">Powershell Scripts that check if the reg keys are set</a></li>
+</ul>
 
 
 
