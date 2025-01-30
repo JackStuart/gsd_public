@@ -2,5 +2,5 @@
 ^https://portal\.azure\.com/#view/.*$
 ^https://rodtrent\.substack\.com/.*$
 ^https://www\.cyber\.gov\.au/.*$
-^https://e8\.jstuart\.io$
+^https://e8\.jstuart\.io/.*$
 ^https://github\.com/marketplace.*$
