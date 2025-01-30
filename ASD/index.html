@@ -626,6 +626,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Application Hardening">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -634,6 +658,30 @@
       Application Control
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Application Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -849,6 +897,30 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Application Hardening">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -857,6 +929,30 @@
       Application Control
     </span>
   </a>
+  
+    <nav class="md-nav" aria-label="Application Control">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#notes_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#links_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Links
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -1001,6 +1097,8 @@ Microsoft has a <a href="https://aka.ms/e8guides">list of guides</a> - focusing 
 </ul>
 <h3 id="helpful-infolinks-for-each-mitigation-strategy"><strong>Helpful Info/Links for each mitigation strategy</strong></h3>
 <h4 id="application-hardening">Application Hardening</h4>
+<h5 id="notes">Notes</h5>
+<h5 id="links">Links</h5>
 <ul>
 <li><a href="https://canyoublockit.com/">Ad Block Tester</a> - This is reccomended by ACSC to test your ability to block ads. With the Manifest v3 changes, a combination of Browser Extensions and DNS blocking is required.<ul>
 <li><a href="https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en">uBlock Lite</a></li>
@@ -1011,6 +1109,7 @@ Microsoft has a <a href="https://aka.ms/e8guides">list of guides</a> - focusing 
 </li>
 </ul>
 <h4 id="application-control">Application Control</h4>
+<h5 id="notes_1">Notes</h5>
 <ul>
 <li>
 <p>Applocker is required for E8 to control the execution of scripts in user profiles</p>
@@ -1024,6 +1123,9 @@ Microsoft has a <a href="https://aka.ms/e8guides">list of guides</a> - focusing 
 <li>
 <p>Microsoft isn't the only company that does App Control, If App Control for Business + AppLocker is to difficult to manage (It is a complicated/frustrating process, especially to start, even more so if you don't have your apps package). <a href="https://www.airlockdigital.com/">Airlock</a> and <a href="https://www.threatlocker.com/">ThreatLocker</a> are great alternatives  </p>
 </li>
+</ul>
+<h5 id="links_1">Links</h5>
+<ul>
 <li>
 <p><a href="https://www.ccmtune.fr/2022/11/how-to-implement-applocker-with.html">Deploy AppLocker via Intune</a> - Good guide on how to deploy Applocker policies via Intune</p>
 </li>
@@ -1052,7 +1154,7 @@ Microsoft has a <a href="https://aka.ms/e8guides">list of guides</a> - focusing 
 <h4 id="restrict-microsoft-office-macros">Restrict Microsoft Office macros</h4>
 <ul>
 <li><a href="https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros">ACSC's guide to disabling Macros</a> - Very good guide - Shows 6 different ways to set macro's, Along with the benefits/fritction. All these options can be set in Intune/GPO</li>
-<li><a href="https://github.com/JackStuart/Scripts/tree/main/Macros">Powershell Scripts that check if the reg keys are set</a></li>
+<li><a href="https://github.com/JackStuart/Scripts/tree/main/Macros">Powershell Testing Scripts</a> - Scripts that you can run to confirm what settings are enabled are disabled, Easily customisable to whatever settings you want to test</li>
 </ul>
 
 
