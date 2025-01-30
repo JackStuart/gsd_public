@@ -1,55 +1,44 @@
 ## **ASD Essential 8 (now ACSC)**
 
 -   **Please start with this - ACSC Essential 8 – Health Report in Microsoft Sentinel**
-<https://techcommunity.microsoft.com/t5/microsoft-sentinel-blog/acsc-essential-8-health-report-in-microsoft-sentinel/ba-p/3755702>
+<https://techcommunity.microsoft.com/blog/microsoftsentinelblog/acsc-essential-8-%e2%80%93-health-report-in-microsoft-sentinel/3755702>
 ![](https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS0zNzU1NzAyLTQ0NjUxNGkzM0RCODE5QjU4RjA2MEJB)
 
--   Great high level on all Essential 8
-<https://aka.ms/e8guides>
--   Collection of Australian M365 content on Essential 8
-<https://m365maps.com/australia.htm>
--   6 videos that walk thru
-<https://info.microsoft.com/AU-SCRTY-CATALOG-FY21-02Feb-14-TheEssentialEightforSecurityinPractice-SRDEM61939_CatalogDisplayPage.html>
--   Microsoft Cybersecurity Reference Architecture
- <https://aka.ms/MCRA> or <https://learn.microsoft.com/en-us/security/cybersecurity-reference-architecture/mcra>
--   General on Essential 8
-<https://learn.microsoft.com/en-us/compliance/anz/e8-overview>
--   Daily backups
-<https://learn.microsoft.com/en-us/compliance/anz/e8-backups>
--   Australian IRAP
-<https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap> & <https://servicetrust.microsoft.com/Viewpage/AustraliaIRAP>
--   Implmenting Essential 8 with Microsoft tooling
+-   [Microsoft's guidance on Essential 8 implementation](https://aka.ms/e8guides)
+-   [Collection of Australian M365 content on Essential 8](https://m365maps.com/australia.htm)
+-   [Microsoft Cybersecurity Reference Architecture](https://aka.ms/MCRA)
+-   [Australian IRAP](https://learn.microsoft.com/en-us/azure/compliance/offerings/offering-australia-irap)
+-   Licencing required to implment Essential 8 with Microsoft tooling
 ![](./images/Essential-8.png)
 
 **Local Australian E8 Guides**
--   Microsoft Service Trust Portal has the local Essential 8 guides  <https://aka.ms/e8guides> here you will find the documentations covering the following specifics (dated Aug 2023) 
+-   Microsoft Service Trust Portal has the local [Essential 8 guides](https://aka.ms/e8guides) - here you will find the documentation covering the following specifics (dated Nov 2023) 
 
-- 	Microsoft General - Essential Eight - Config Macros
--   Microsoft General - Essential Eight - User Application Hardening
--   Microsoft General - Essential Eight - Restricting Admin Priv
-- 	Microsoft General - Essential Eight - Patch OS
-- 	Microsoft General - Essential Eight - Backup
--   Microsoft General - Essential Eight - Patch Applications 
--   Microsoft General - Essential Eight - MFA
+-   [Microsoft General - Essential Eight - Application Hardening](https://learn.microsoft.com/en-us/compliance/anz/e8-app-harden)
+- 	[Microsoft General - Essential Eight - Application Control](https://learn.microsoft.com/en-us/compliance/anz/e8-app-control)
+-   [Microsoft General - Essential Eight - Multi-factor authentication](https://learn.microsoft.com/en-us/compliance/anz/e8-mfa)
+- 	[Microsoft General - Essential Eight - Patch Applications](https://learn.microsoft.com/en-us/compliance/anz/e8-patch-app)
+- 	[Microsoft General - Essential Eight - Patch Operating Systems](https://learn.microsoft.com/en-us/compliance/anz/e8-patch-os)
+-   [Microsoft General - Essential Eight - Restrict administrative privileges](https://learn.microsoft.com/en-us/compliance/anz/e8-admin)
+-   [Microsoft General - Essential Eight - Regular backups](https://learn.microsoft.com/en-us/compliance/anz/e8-backups)
+-   [Microsoft General - Essential Eight - Restrict Microsoft Office macros](https://learn.microsoft.com/en-us/compliance/anz/e8-macro)
 
 ### **Hardening Guidance from ACSC**
 
--   For Windows 10 21H1
-<https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-windows-10-version-21h1-workstations>
--   For Office
-<https://www.cyber.gov.au/acsc/view-all-content/publications/hardening-microsoft-365-office-2021-office-2019-and-office-2016>
--   For Macro's
-    -   Restricting Microsoft Office Macros <https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros> & 
-    -   Technical example: Configure macro settings <https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/small-business-cyber-security/small-business-cloud-security-guide/technical-example-configure-macro-settings>
+-   [Hardening Microsoft Windows 10 and Windows 11 Workstations](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-and-windows-11-workstations)
+-   [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016)
+-   [Hardening Linux Workstations and Servers](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers)
 
--   For Intune
-<https://github.com/microsoft/Intune-ACSC-Windows-Hardening-Guidelines>
--   WDAC Policy creation from DTA
-<https://desktop.gov.au/blueprint/abac/wdac-policy-creation.html>
 
-### **Hardening Azure AD**
 
--   [Secure your Azure AD identity infrastructure - Azure Active Directory](https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity)
+
+
+-   [Restricting Microsoft Office Macros](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros)
+
+
+### **Hardening Entra ID**
+
+-   [Five steps to securing your identity infrastructure](https://learn.microsoft.com/en-us/azure/security/fundamentals/steps-secure-identity)
 -   Also worth reviewing our Essential 8 guidance, especially MFA (aka.ms/e8guides)
 -   Microsoft Azure **Identity Security Compass** - [Microsoft Security Best Practices](https://learn.microsoft.com/en-us/security/compass/compass)
 -   Active Directory - [Best Practices for Securing Active Directory](https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/best-practices-for-securing-active-directory)
