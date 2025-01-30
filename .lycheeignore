@@ -2,4 +2,4 @@
 ^https://portal\.azure\.com/#view/.*$
 ^https://rodtrent\.substack\.com/.*$
 ^https://www\.cyber\.gov\.au/.*$
-^assets/stylesheets/custom(.*)?$
+^https://e8\.jstuart\.io$
