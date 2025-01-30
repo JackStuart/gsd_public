@@ -1,5 +1,3 @@
-## **MDE (Microsoft Defender for Endpoint)**
-
 ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwZULy1sOxB6LxDMRu-_FvV72vfFAsTKnM1A&usqp=CAU)
 
 ### **Ways of working**

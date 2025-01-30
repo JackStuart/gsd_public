@@ -1,3 +1,5 @@
 ^https://portal\.azure\.com/#blade/.*$
 ^https://portal\.azure\.com/#view/.*$
-^https://rodtrent\.substack\.com*$
+^https://rodtrent\.substack\.com/.*$
+^https://www\.cyber\.gov\.au/.*$
+^assets/stylesheets/custom(.*)?$

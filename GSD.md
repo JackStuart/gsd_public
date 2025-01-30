@@ -1,4 +1,3 @@
-# **Get Security Done (GSD) - Microsoft Security & M365 Defender**
 Quick wins to improve Security using existing M365 E5 entitlements
 
 !!! warning "Disclaimer (you know the drill :-) )"

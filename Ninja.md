@@ -1,5 +1,3 @@
-## **Ninja Security Training**
-
 -   M365 Defender : <https://aka.ms/m365dninja>
 -   Microsoft Defender for Endpoint: <https://aka.ms/mdeninja>
 -   Microsoft Defender for Identity : <https://aka.ms/MDINinja>

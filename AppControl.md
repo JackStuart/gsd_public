@@ -1,5 +1,3 @@
-## **10.   WDAC: (Windows Defender Application Control)**
-
 !!! danger
 
     **Work in Progress,** please review all content before starting, and be cautious in deployment

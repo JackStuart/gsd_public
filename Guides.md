@@ -1,5 +1,3 @@
-## **Interactive Guides**
-
 -   [Defender for Cloud](<https://aka.ms/ASC_InteractiveGuide>)
 -   [Microsoft Sentinel](https://aka.ms/AzureSentinel_SOC_InteractiveGuide)
 -   [M365 Defender](https://aka.ms/ProtectwithMSD-InteractiveGuide)

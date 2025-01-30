@@ -1,5 +1,3 @@
-# Author, Contriburors & Reviewers
-
 ## **About**
 GSD is my personal collection of Notes and Links regarding getting various aspects of Defender Security platform deployed, this is something that I was collecting in OneNote as I come across good content so that I can have it "all in one place" for ready reference later.
 

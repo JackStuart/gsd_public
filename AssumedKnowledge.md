@@ -1,5 +1,3 @@
-## **Assumed Knowledge**  
-
 This project is intended to remove friction to "getting shit done" and as such there is a certain amount of "assumed knowledge" that you are already somewhat experienced with the Microsoft Defender Security Suite of tools - in particular the 4 main pillars of MDI, MDE, MDO and MDCA (was MCAS) - if not then please consider having a good review of the Core Reference material below.
 
 However, if you've already got a reasonably good handle on this, don't let us stop you - dive straight in and "get shit done" ;-)
