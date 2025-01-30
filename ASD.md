@@ -42,6 +42,10 @@ Microsoft has a [list of guides](https://aka.ms/e8guides) - focusing on each of 
 
 #### Application Hardening
 
+##### Notes
+
+##### Links
+
 - [Ad Block Tester](https://canyoublockit.com/) - This is reccomended by ACSC to test your ability to block ads. With the Manifest v3 changes, a combination of Browser Extensions and DNS blocking is required.
     - [uBlock Lite](https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh?hl=en)
     - [AdBlock Plus](https://chromewebstore.google.com/detail/adblock-plus-free-ad-bloc/cfhdojbkjhnklbpkdaibdccddilifddb?hl=en)
@@ -50,6 +54,8 @@ Microsoft has a [list of guides](https://aka.ms/e8guides) - focusing on each of 
 
 #### Application Control
 
+##### Notes
+
 - Applocker is required for E8 to control the execution of scripts in user profiles
 
 - App Control for Business/Applocker only reports failure events to Advanced Hunting, Successful events are not logged. This can make it hard to find if a policy is working or not as you are looking for something that isn't there
@@ -57,6 +63,8 @@ Microsoft has a [list of guides](https://aka.ms/e8guides) - focusing on each of 
 - App Control for Business's Intelligent Security Graph is incompatible with Essential 8
 
 - Microsoft isn't the only company that does App Control, If App Control for Business + AppLocker is to difficult to manage (It is a complicated/frustrating process, especially to start, even more so if you don't have your apps package). [Airlock](https://www.airlockdigital.com/) and [ThreatLocker](https://www.threatlocker.com/) are great alternatives  
+
+##### Links
 
 - [Deploy AppLocker via Intune](https://www.ccmtune.fr/2022/11/how-to-implement-applocker-with.html) - Good guide on how to deploy Applocker policies via Intune
 
@@ -84,4 +92,4 @@ Microsoft has a [list of guides](https://aka.ms/e8guides) - focusing on each of 
 #### Restrict Microsoft Office macros
 
 - [ACSC's guide to disabling Macros](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/restricting-microsoft-office-macros) - Very good guide - Shows 6 different ways to set macro's, Along with the benefits/fritction. All these options can be set in Intune/GPO
-- [Powershell Scripts that check if the reg keys are set](https://github.com/JackStuart/Scripts/tree/main/Macros)
+- [Powershell Testing Scripts](https://github.com/JackStuart/Scripts/tree/main/Macros) - Scripts that you can run to confirm what settings are enabled are disabled, Easily customisable to whatever settings you want to test
