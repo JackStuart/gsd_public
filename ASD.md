@@ -11,18 +11,28 @@
 
 **Microsoft E8 Guides**
 Microsoft has a list of guides below focusing on each of the 8 Mitigation Strategies [Essential 8 guides](https://aka.ms/e8guides)
+
 - [Microsoft General - Essential Eight - Application Hardening](https://learn.microsoft.com/en-us/compliance/anz/e8-app-harden)
+
 - [Microsoft General - Essential Eight - Application Control](https://learn.microsoft.com/en-us/compliance/anz/e8-app-control)
+
 - [Microsoft General - Essential Eight - Multi-factor authentication](https://learn.microsoft.com/en-us/compliance/anz/e8-mfa)
+
 - [Microsoft General - Essential Eight - Patch Applications](https://learn.microsoft.com/en-us/compliance/anz/e8-patch-app)
+
 - [Microsoft General - Essential Eight - Patch Operating Systems](https://learn.microsoft.com/en-us/compliance/anz/e8-patch-os)
+
 - [Microsoft General - Essential Eight - Restrict administrative privileges](https://learn.microsoft.com/en-us/compliance/anz/e8-admin)
+
 - [Microsoft General - Essential Eight - Regular backups](https://learn.microsoft.com/en-us/compliance/anz/e8-backups)
+
 - [Microsoft General - Essential Eight - Restrict Microsoft Office macros](https://learn.microsoft.com/en-us/compliance/anz/e8-macro)  
 
 ### **Hardening Guidance from ACSC**
 - [Hardening Microsoft Windows 10 and Windows 11 Workstations](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-windows-10-and-windows-11-workstations)
+
 - [Hardening Microsoft 365, Office 2021, Office 2019 and Office 2016](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-microsoft-365-office-2021-office-2019-and-office-2016)
+
 - [Hardening Linux Workstations and Servers](https://www.cyber.gov.au/resources-business-and-government/maintaining-devices-and-systems/system-hardening-and-administration/system-hardening/hardening-linux-workstations-and-servers)
 
 ### **Helpful Info/Links for each mitigation strategy**
